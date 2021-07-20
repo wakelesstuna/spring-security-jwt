@@ -1,8 +1,8 @@
 package io.wakelesstuna.springsecurityjwt.controller;
 
+import io.wakelesstuna.springsecurityjwt.security.jwt.JwtUtil;
 import io.wakelesstuna.springsecurityjwt.security.jwt.model.AuthRequest;
 import io.wakelesstuna.springsecurityjwt.security.jwt.model.AuthResponse;
-import io.wakelesstuna.springsecurityjwt.security.jwt.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
